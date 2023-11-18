@@ -15,7 +15,7 @@ token = os.getenv("TOKEN")
 BOT_USERNAME = '@ManukaAI_Bot'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('Support me on : https://www.paypal.me/ardha27')
+    await update.message.reply_text('Support me on : https://link.payway.com.kh/aba?id=91B94676B913&code=156521&acc=111569965')
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Please type something so i can respond')
